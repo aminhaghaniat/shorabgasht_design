@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+<!--
+نویسنده: ساتراس وب
+محصولات نام: مترونیک
+محصولات Version: 8.2.0
+خرید: https://1.envato.market/EA4JP
+وب سایت: http://www.keenthemes.com
+تماس با ما: support@keenthemes.com
+دنبال کردن: www.twitter.com/keenthemes
+دریبل: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+لاینسس شده: For each use you must have a valid license purchased only from above link in order to legally use the theme for your project.
+-->
+<html direction="rtl" dir="rtl" style="direction: rtl" >
+	<!--begin::Head-->
+	<head><base href=""/>
+		<title>قالب مدیریتی مترونیک - ساتراس وب</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="The most advanced Bootstrap 5 Admin Theme with 40 unique prebuilt layouts on Themeforest trusted by 100,000 beginners and professionals. Multi-demo, حالت تیره, RTL support and complete React, Angular, Vue, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel versions. Grab your copy now and get life-time updates for free." />
+		<meta name="keywords" content="metronic, bootstrap, bootstrap 5, angular, VueJs, React, Asp.Net Core, Rails, Spring, Blazor, Django, Express.js, Node.js, Flask, Symfony & Laravel starter kits, admin themes, web design, figma, web development, free templates, free admin themes, bootstrap theme, bootstrap template, bootstrap dashboard, bootstrap dak mode, bootstrap button, bootstrap datepicker, bootstrap timepicker, fullcalendar, datatables, flaticon" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="مترونیک - پنل ادمین بوت استراپ Template, HTML, VueJS, React, Angular. Laravel, Asp.Net Core, روبی روی ریل, Spring Boot, Blazor, Django, Express.js, Node.js, Flask Admin داشبورد Theme & Template" />
+		<!-- <meta property="og:url" content="https://keenthemes.com/metronic" /> -->
+		<meta property="og:site_name" content="ساتراس وب | مترونیک" />
+		<!-- <link rel="canonical" href="https://preview.keenthemes.com/metronic8" /> -->
+		<link rel="shortcut icon" href="assets/images/sohrabgasht04.png" />
+		<!--begin::Fonts(mandatory for all pages)-->
+		<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/cssfamily=Inter:300,400,500,600,700" /> -->
+		<!--end::Fonts-->
+		<!--begin::Vendor Stylesheets(used for this page only)-->
+		<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/plugins/custom/datatables/datatables.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Vendor Stylesheets-->
+		<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
+		<link href="assets/plugins/global/plugins.bundle.rtl.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.rtl.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+		<script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>
+	</head>
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_app_body" data-kt-app-header-fixed="true" data-kt-app-header-fixed-mobile="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" class="app-default">
+		<!--begin::Theme mode setup on page load-->
+		<script>var defaultThemeMode = "light"; var thememode; 
+		if ( document.documentElement ) 
+		{ if ( document.documentElement.hasAttribute("data-bs-theme-mode")) { thememode = document.documentElement.getAttribute("data-bs-theme-mode"); } else { if ( localStorage.getitem("data-bs-theme") !== null ) { thememode = localStorage.getitem("data-bs-theme"); } else { thememode = defaultThemeMode; } } if (thememode === "system") { thememode = window.matchMedia("(prefers-color-scheme: dark)").matches  "dark" : "light"; } document.documentElement.setAttribute("data-bs-theme", thememode); }</script>
+		<!--end::Theme mode setup on page load-->
+		<!--begin::اپلیکیشن-->
+		<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+			<!--begin::Page-->
+			<div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+				<!--begin::Header-->
+				<div id="kt_app_header" class="app-header">
+					<!--begin::Header container-->
+					<div class="app-container container-fluid d-flex align-items-stretch flex-stack" id="kt_app_header_container">
+						<!--begin::Sidebar toggle-->
+						<div class="d-flex align-items-center d-block d-lg-none ms-n3" title="مشاهده">
+							<div class="btn btn-icon btn-active-color-primary w-35px h-35px me-2" id="kt_app_sidebar_mobile_toggle">
+								<i class="ki-outline ki-abstract-14 fs-2"></i>
+							</div>
+							<!--begin::Logo image-->
+							<a href="../../demo38/dist/index.html">
+								<img alt="Logo" src="assets/media/logos/demo38-small.svg" class="h-30px" />
+							</a>
+							<!--end::Logo image-->
+						</div>
+						<!--end::Sidebar toggle-->
+						<!--begin::Navbar-->
+						<div class="app-navbar flex-lg-grow-1" id="kt_app_header_navbar">
+							<div class="app-navbar-item d-flex align-items-stretch flex-lg-grow-1">
+								<!--begin::جستجو-->
+								<div id="kt_header_search" class="header-search d-flex align-items-center w-lg-200px" data-kt-search-keypress="true" data-kt-search-min-length="2" data-kt-search-enter="enter" data-kt-search-layout="menu" data-kt-search-responsive="true" data-kt-menu-trigger="auto" data-kt-menu-permanent="true" data-kt-menu-placement="bottom-end">
+									<!--begin::Tablet and mobile search toggle-->
+									<div data-kt-search-element="toggle" class="search-toggle-mobile d-flex d-lg-none align-items-center">
+										<div class="d-flex">
+											<i class="ki-outline ki-magnifier fs-1"></i>
+										</div>
+									</div>
+									<!--end::Tablet and mobile search toggle-->
+									<!--begin::Fیاm(use d-none d-lg-block classes for responsive search)-->
+									<form data-kt-search-element="form" class="d-none d-lg-block w-100 position-relative mb-5 mb-lg-0" autocomplete="off">
+										<!--begin::Hidden input(افزودنed to disable form autocomplete)-->
+										<input type="hidden" />
+										<!--end::Hidden input-->
+										<!--begin::Icon-->
+										<i class="ki-outline ki-magnifier search-icon fs-2 text-gray-500 position-absolute top-50 translate-middle-y ms-5"></i>
+										<!--end::Icon-->
+										<!--begin::Input-->
+										<input type="text" class="search-input form-control form-control rounded-1 ps-13" name="search" value="" placeholder="جستجو..." data-kt-search-element="input" />
+										<!--end::Input-->
+										<!--begin::Spinner-->
+										<span class="search-spinner position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-5" data-kt-search-element="spinner">
+											<span class="spinner-border h-15px w-15px align-middle text-gray-400"></span>
+										</span>
+										<!--end::Spinner-->
+										<!--begin::ریست-->
+										<span class="search-reset btn btn-flush btn-active-color-primary position-absolute top-50 end-0 translate-middle-y lh-0 d-none me-4" data-kt-search-element="clear">
+											<i class="ki-outline ki-cross fs-2 fs-lg-1 me-0"></i>
+										</span>
+										<!--end::ریست-->
+									</form>
+									<!--end::Form-->
+									<!--begin::Menu-->
+									<div data-kt-search-element="content" class="menu menu-sub menu-sub-dropdown py-7 px-7 overflow-hidden w-300px w-md-350px">
+										<!--begin::Wrapper-->
+										<div data-kt-search-element="wrapper">
+											<!--begin::اخیرly viewed-->
+											<div data-kt-search-element="results" class="d-none">
+												<!--begin::items-->
+												<div class="scroll-y mh-200px mh-lg-350px">
+													<!--begin::دسته بندی title-->
+													<h3 class="fs-5 text-muted m-0 pb-5" data-kt-search-element="category-title">کاربران</h3>
+													<!--end::دسته بندی title-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<img src="assets/media/avatars/300-6.jpg" alt="" />
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">کارینا کالرک</span>
+															<span class="fs-7 fw-semibold text-muted">مدیریت بازاریابی</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<img src="assets/media/avatars/300-2.jpg" alt="" />
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">غلامی</span>
+															<span class="fs-7 fw-semibold text-muted">مهندس نرم افزار</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<img src="assets/media/avatars/300-9.jpg" alt="" />
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">حسینی</span>
+															<span class="fs-7 fw-semibold text-muted">طراح یو ای و یوایکس</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<img src="assets/media/avatars/300-14.jpg" alt="" />
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">موسوی</span>
+															<span class="fs-7 fw-semibold text-muted">کارگردان هنری</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<img src="assets/media/avatars/300-11.jpg" alt="" />
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">بناری</span>
+															<span class="fs-7 fw-semibold text-muted">مدیر سیستم</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::دسته بندی title-->
+													<h3 class="fs-5 text-muted m-0 pt-5 pb-5" data-kt-search-element="category-title">مشتریان</h3>
+													<!--end::دسته بندی title-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/volicity-9.svg" alt="" />
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">کمپانی برندینگ</span>
+															<span class="fs-7 fw-semibold text-muted">طراح</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/tvit.svg" alt="" />
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">کمپانی برندینگ</span>
+															<span class="fs-7 fw-semibold text-muted">توسعه دهنده وب</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<img class="w-20px h-20px" src="assets/media/svg/misc/infography.svg" alt="" />
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">بیزینس آنالیتیکس اپلیکیشن</span>
+															<span class="fs-7 fw-semibold text-muted">مدیریت</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/leaf.svg" alt="" />
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">اکولیف اپلیکیشن لانچ</span>
+															<span class="fs-7 fw-semibold text-muted">بازاریابی</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<img class="w-20px h-20px" src="assets/media/svg/brand-logos/tower.svg" alt="" />
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column justify-content-start fw-semibold">
+															<span class="fs-6 fw-semibold">قدرت گروه وب سایت</span>
+															<span class="fs-7 fw-semibold text-muted">گوگل کلمات پیشنهادی</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::دسته بندی title-->
+													<h3 class="fs-5 text-muted m-0 pt-5 pb-5" data-kt-search-element="category-title">پروژه ها</h3>
+													<!--end::دسته بندی title-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-notepad fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<span class="fs-6 fw-semibold">پروژه توسط ساتراس وب</span>
+															<span class="fs-7 fw-semibold text-muted">#45670</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-frame fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<span class="fs-6 fw-semibold">اپلیکیشن فونیکس</span>
+															<span class="fs-7 fw-semibold text-muted">#45690</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-message-text-2 fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<span class="fs-6 fw-semibold">دارایی، مالیه، سرمایه گذاری نظارت بر بحث SAAS</span>
+															<span class="fs-7 fw-semibold text-muted">#21090</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+													<!--begin::item-->
+													<a href="#" class="d-flex text-dark text-hover-primary align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-profile-circle fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<span class="fs-6 fw-semibold">داشبورد انالیتیکس</span>
+															<span class="fs-7 fw-semibold text-muted">#34560</span>
+														</div>
+														<!--end::Title-->
+													</a>
+													<!--end::item-->
+												</div>
+												<!--end::items-->
+											</div>
+											<!--end::اخیرly viewed-->
+											<!--begin::اخیرly viewed-->
+											<div class="" data-kt-search-element="main">
+												<!--begin::Heading-->
+												<div class="d-flex flex-stack fw-semibold mb-4">
+													<!--begin::Tags-->
+													<span class="text-muted fs-6 me-2">نتایج اخیر:</span>
+													<!--end::Tags-->
+													<!--begin::Toolbar-->
+													<div class="d-flex" data-kt-search-element="toolbar">
+														<!--begin::اولویت ها toggle-->
+														<div data-kt-search-element="preferences-show" class="btn btn-icon w-20px btn-sm btn-active-color-primary me-2 data-bs-toggle=" title="نمایش تنظیمات جستجو">
+															<i class="ki-outline ki-setting-2 fs-2"></i>
+														</div>
+														<!--end::اولویت ها toggle-->
+														<!--begin::پیشرفته search toggle-->
+														<div data-kt-search-element="advanced-options-form-show" class="btn btn-icon w-20px btn-sm btn-active-color-primary me-n1" data-bs-toggle="tooltip" title="نمایش گزینه های جستجوی بیشتر">
+															<i class="ki-outline ki-down fs-2"></i>
+														</div>
+														<!--end::پیشرفته search toggle-->
+													</div>
+													<!--end::Toolbar-->
+												</div>
+												<!--end::Heading-->
+												<!--begin::items-->
+												<div class="scroll-y mh-200px mh-lg-325px">
+													<!--begin::item-->
+													<div class="d-flex align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-laptop fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">ساتراس وب</a>
+															<span class="fs-7 text-muted fw-semibold">#45789</span>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::item-->
+													<!--begin::item-->
+													<div class="d-flex align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-chart-simple fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">"ملاقات پروژه ها</a>
+															<span class="fs-7 text-muted fw-semibold">#84050</span>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::item-->
+													<!--begin::item-->
+													<div class="d-flex align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-chart fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">اپلیکیشن مانیتورینگ</a>
+															<span class="fs-7 text-muted fw-semibold">#84250</span>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::item-->
+													<!--begin::item-->
+													<div class="d-flex align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-chart-line-down fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">سوالات متداول</a>
+															<span class="fs-7 text-muted fw-semibold">#67945</span>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::item-->
+													<!--begin::item-->
+													<div class="d-flex align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-sms fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">"اپلیکیشن کیت پرو</a>
+															<span class="fs-7 text-muted fw-semibold">#84250</span>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::item-->
+													<!--begin::item-->
+													<div class="d-flex align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-bank fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">اپلیکیشن فونیکس</a>
+															<span class="fs-7 text-muted fw-semibold">#45690</span>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::item-->
+													<!--begin::item-->
+													<div class="d-flex align-items-center mb-5">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-40px me-4">
+															<span class="symbol-label bg-light">
+																<i class="ki-outline ki-chart-line-down fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="d-flex flex-column">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-semibold">"صفحه فرود طراح" لانچ</a>
+															<span class="fs-7 text-muted fw-semibold">#24005</span>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::item-->
+												</div>
+												<!--end::items-->
+											</div>
+											<!--end::اخیرly viewed-->
+											<!--begin::Empty-->
+											<div data-kt-search-element="empty" class="text-center d-none">
+												<!--begin::Icon-->
+												<div class="pt-10 pb-10">
+													<i class="ki-outline ki-search-list fs-4x opacity-50"></i>
+												</div>
+												<!--end::Icon-->
+												<!--begin::Message-->
+												<div class="pb-15 fw-semibold">
+													<h3 class="text-gray-600 fs-5 mb-2">نتیجه ای یافت نشد</h3>
+													<div class="text-muted fs-7">لطفاً با یک پرسش دیگر دوباره امتحان کنید</div>
+												</div>
+												<!--end::Message-->
+											</div>
+											<!--end::Empty-->
+										</div>
+										<!--end::Wrapper-->
+										<!--begin::اولویت ها-->
+										<form data-kt-search-element="advanced-options-form" class="pt-1 d-none">
+											<!--begin::Heading-->
+											<h3 class="fw-semibold text-dark mb-7">پیشرفته جستجو</h3>
+											<!--end::Heading-->
+											<!--begin::Input group-->
+											<div class="mb-5">
+												<input type="text" class="form-control form-control-sm form-control-solid" placeholder="متن را وارد کنید" name="query" />
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="mb-5">
+												<!--begin::رادیو group-->
+												<div class="nav-group nav-group-fluid">
+													<!--begin::Option-->
+													<label>
+														<input type="radio" class="btn-check" name="type" value="has" checked="checked" />
+														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary">همه</span>
+													</label>
+													<!--end::Option-->
+													<!--begin::Option-->
+													<label>
+														<input type="radio" class="btn-check" name="type" value="users" />
+														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">کاربران</span>
+													</label>
+													<!--end::Option-->
+													<!--begin::Option-->
+													<label>
+														<input type="radio" class="btn-check" name="type" value="orders" />
+														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">سفارشات</span>
+													</label>
+													<!--end::Option-->
+													<!--begin::Option-->
+													<label>
+														<input type="radio" class="btn-check" name="type" value="projects" />
+														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">پروژه ها</span>
+													</label>
+													<!--end::Option-->
+												</div>
+												<!--end::رادیو group-->
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="mb-5">
+												<input type="text" name="assignedto" class="form-control form-control-sm form-control-solid" placeholder="اختصاص دادن" value="" />
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="mb-5">
+												<input type="text" name="collaborators" class="form-control form-control-sm form-control-solid" placeholder="همکاران" value="" />
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="mb-5">
+												<!--begin::رادیو group-->
+												<div class="nav-group nav-group-fluid">
+													<!--begin::Option-->
+													<label>
+														<input type="radio" class="btn-check" name="attachment" value="has" checked="checked" />
+														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary">ضمیمه دار</span>
+													</label>
+													<!--end::Option-->
+													<!--begin::Option-->
+													<label>
+														<input type="radio" class="btn-check" name="attachment" value="any" />
+														<span class="btn btn-sm btn-color-muted btn-active btn-active-primary px-4">هیچ</span>
+													</label>
+													<!--end::Option-->
+												</div>
+												<!--end::رادیو group-->
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="mb-5">
+												<select name="timezone" aria-label="انتخاب زمان محلی" data-control="select2" data-dropdown-parent="#kt_header_search" data-placeholder="date_period" class="form-select form-select-sm form-select-solid">
+													<option value="next">بعدی</option>
+													<option value="last">قبلی</option>
+													<option value="between">بین</option>
+													<option value="on">روشن</option>
+												</select>
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="row mb-8">
+												<!--begin::Col-->
+												<div class="col-6">
+													<input type="number" name="date_number" class="form-control form-control-sm form-control-solid" placeholder="طول" value="" />
+												</div>
+												<!--end::Col-->
+												<!--begin::Col-->
+												<div class="col-6">
+													<select name="date_typer" aria-label="انتخاب زمان محلی" data-control="select2" data-dropdown-parent="#kt_header_search" data-placeholder="Period" class="form-select form-select-sm form-select-solid">
+														<option value="days">روزها</option>
+														<option value="weeks">هفته ها</option>
+														<option value="months">ماه ها</option>
+														<option value="years">سال ها</option>
+													</select>
+												</div>
+												<!--end::Col-->
+											</div>
+											<!--end::Input group-->
+											<!--begin::Actions-->
+											<div class="d-flex justify-content-end">
+												<button type="reset" class="btn btn-sm btn-light fw-bold btn-active-light-primary me-2" data-kt-search-element="advanced-options-form-cancel">انصراف</button>
+												<a href="../../demo38/dist/pages/search/horizontal.html" class="btn btn-sm fw-bold btn-primary" data-kt-search-element="advanced-options-form-search">جستجو</a>
+											</div>
+											<!--end::Actions-->
+										</form>
+										<!--end::اولویت ها-->
+										<!--begin::اولویت ها-->
+										<form data-kt-search-element="preferences" class="pt-1 d-none">
+											<!--begin::Heading-->
+											<h3 class="fw-semibold text-dark mb-7">جستجو پرفرمنس</h3>
+											<!--end::Heading-->
+											<!--begin::Input group-->
+											<div class="pb-4 border-bottom">
+												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">پروژه ها</span>
+													<input class="form-check-input" type="checkbox" value="1" checked="checked" />
+												</label>
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="py-4 border-bottom">
+												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">اهداف</span>
+													<input class="form-check-input" type="checkbox" value="1" checked="checked" />
+												</label>
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="py-4 border-bottom">
+												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">برنامه بازاریابی</span>
+													<input class="form-check-input" type="checkbox" value="1" />
+												</label>
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="py-4 border-bottom">
+												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">مراجعات</span>
+													<input class="form-check-input" type="checkbox" value="1" checked="checked" />
+												</label>
+											</div>
+											<!--end::Input group-->
+											<!--begin::Input group-->
+											<div class="py-4 border-bottom">
+												<label class="form-check form-switch form-switch-sm form-check-custom form-check-solid flex-stack">
+													<span class="form-check-label text-gray-700 fs-6 fw-semibold ms-0 me-2">کاربران</span>
+													<input class="form-check-input" type="checkbox" value="1" />
+												</label>
+											</div>
+											<!--end::Input group-->
+											<!--begin::Actions-->
+											<div class="d-flex justify-content-end pt-7">
+												<button type="reset" class="btn btn-sm btn-light fw-bold btn-active-light-primary me-2" data-kt-search-element="preferences-dismiss">انصراف</button>
+												<button type="submit" class="btn btn-sm fw-bold btn-primary">ذخیره تغییرات</button>
+											</div>
+											<!--end::Actions-->
+										</form>
+										<!--end::اولویت ها-->
+									</div>
+									<!--end::Menu-->
+								</div>
+								<!--end::جستجو-->
+							</div>
+							<!--begin::اعلان ها-->
+							<div class="app-navbar-item ms-1 ms-md-3">
+								<!--begin::Menu- wrapper-->
+								<div class="btn btn-icon btn-custom btn-color-gray-600 btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+									<i class="ki-outline ki-calendar fs-1"></i>
+								</div>
+								<!--begin::Menu-->
+								<div class="menu menu-sub menu-sub-dropdown menu-column w-350px w-lg-375px" data-kt-menu="true" id="kt_menu_notifications">
+									<!--begin::Heading-->
+									<div class="d-flex flex-column bgi-no-repeat rounded-top" style="background-image:url('assets/media/misc/menu-header-bg.jpg')">
+										<!--begin::Title-->
+										<h3 class="text-white fw-semibold px-9 mt-10 mb-6">اعلان ها
+										<span class="fs-8 opacity-75 ps-3">24 گزارش</span></h3>
+										<!--end::Title-->
+										<!--begin::Tabs-->
+										<ul class="nav nav-line-tabs nav-line-tabs-2x nav-stretch fw-semibold px-9">
+											<li class="nav-item">
+												<a class="nav-link text-white opacity-75 opacity-state-100 pb-4" data-bs-toggle="tab" href="#kt_topbar_notifications_1">هشدارها</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white opacity-75 opacity-state-100 pb-4 active" data-bs-toggle="tab" href="#kt_topbar_notifications_2">بروزرسانی ها</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white opacity-75 opacity-state-100 pb-4" data-bs-toggle="tab" href="#kt_topbar_notifications_3">گزارش</a>
+											</li>
+										</ul>
+										<!--end::Tabs-->
+									</div>
+									<!--end::Heading-->
+									<!--begin::Tab content-->
+									<div class="tab-content">
+										<!--begin::Tab panel-->
+										<div class="tab-pane fade" id="kt_topbar_notifications_1" role="tabpanel">
+											<!--begin::items-->
+											<div class="scroll-y mh-325px my-5 px-8">
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-35px me-4">
+															<span class="symbol-label bg-light-primary">
+																<i class="ki-outline ki-abstract-28 fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="mb-0 me-2">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">پروژه آلیس</a>
+															<div class="text-gray-400 fs-7">توسعه فاز 1</div>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">1 ساعت</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-35px me-4">
+															<span class="symbol-label bg-light-danger">
+																<i class="ki-outline ki-information fs-2 text-danger"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="mb-0 me-2">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">محرمانه</a>
+															<div class="text-gray-400 fs-7">اسناد محرمانه کارکنان</div>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">2 ساعت</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-35px me-4">
+															<span class="symbol-label bg-light-warning">
+																<i class="ki-outline ki-briefcase fs-2 text-warning"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="mb-0 me-2">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">کمپانی HR</a>
+															<div class="text-gray-400 fs-7">مشخصات کارکنان را شریک کنید</div>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">5 ساعت</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-35px me-4">
+															<span class="symbol-label bg-light-success">
+																<i class="ki-outline ki-abstract-12 fs-2 text-success"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="mb-0 me-2">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">پروژه ریداکس</a>
+															<div class="text-gray-400 fs-7">تم ادمین جدید</div>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">2 روز</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-35px me-4">
+															<span class="symbol-label bg-light-primary">
+																<i class="ki-outline ki-colors-square fs-2 text-primary"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="mb-0 me-2">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">پروژه بریفینگ</a>
+															<div class="text-gray-400 fs-7">به روز رسانی وضعیت راه اندازی محصول</div>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">21 Jan</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-35px me-4">
+															<span class="symbol-label bg-light-info">
+																<i class="ki-outline ki-picture fs-2 text-info"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="mb-0 me-2">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">دارایی های بنر</a>
+															<div class="text-gray-400 fs-7">مجموعه ای از تصویر بنرها</div>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">21 Jan</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center">
+														<!--begin::Symbol-->
+														<div class="symbol symbol-35px me-4">
+															<span class="symbol-label bg-light-warning">
+																<i class="ki-outline ki-color-swatch fs-2 text-warning"></i>
+															</span>
+														</div>
+														<!--end::Symbol-->
+														<!--begin::Title-->
+														<div class="mb-0 me-2">
+															<a href="#" class="fs-6 text-gray-800 text-hover-primary fw-bold">نماد دارایی ها</a>
+															<div class="text-gray-400 fs-7">مجموعه ای از ایکون ها</div>
+														</div>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">20 March</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+											</div>
+											<!--end::items-->
+											<!--begin::نمایش بیشتر-->
+											<div class="py-3 text-center border-top">
+												<a href="../../demo38/dist/pages/user-profile/activity.html" class="btn btn-color-gray-600 btn-active-color-primary">نمایش همه
+												<i class="ki-outline ki-arrow-left fs-5"></i></a>
+											</div>
+											<!--end::نمایش بیشتر-->
+										</div>
+										<!--end::Tab panel-->
+										<!--begin::Tab panel-->
+										<div class="tab-pane fade show active" id="kt_topbar_notifications_2" role="tabpanel">
+											<!--begin::Wrapper-->
+											<div class="d-flex flex-column px-9">
+												<!--begin::Section-->
+												<div class="pt-10 pb-0">
+													<!--begin::Title-->
+													<h3 class="text-dark text-center fw-bold">دسترسی حرفه ای را دریافت کنید</h3>
+													<!--end::Title-->
+													<!--begin::Text-->
+													<div class="text-center text-gray-600 fw-semibold pt-1">رئوس مطالب شما را صادق نگه می دارد. آنها جلوی شگفت انگیز بودن شما درمورد رانندگی را می گیرند</div>
+													<!--end::Text-->
+													<!--begin::Actions-->
+													<div class="text-center mt-5 mb-9">
+														<a href="#" class="btn btn-sm btn-primary px-6" data-bs-toggle="modal" data-bs-target="#kt_modal_upgrade_plan">ارتقا دهید</a>
+													</div>
+													<!--end::Actions-->
+												</div>
+												<!--end::Section-->
+												<!--begin::Illustration-->
+												<div class="text-center px-4">
+													<img class="mw-100 mh-200px" alt="image" src="assets/media/illustrations/sketchy-1/1.png" />
+												</div>
+												<!--end::Illustration-->
+											</div>
+											<!--end::Wrapper-->
+										</div>
+										<!--end::Tab panel-->
+										<!--begin::Tab panel-->
+										<div class="tab-pane fade" id="kt_topbar_notifications_3" role="tabpanel">
+											<!--begin::items-->
+											<div class="scroll-y mh-325px my-5 px-8">
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-success me-4">200</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">سفارش جدید</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">فقط</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-danger me-4">500</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">مشتری جدید</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">2 ساعت</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-success me-4">200</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">پردازش درگاه</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">5 ساعت</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-warning me-4">300</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">جستجوی کوئری</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">2 روز</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-success me-4">200</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">ارتباط کلید دسترسی</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">1 هفته</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-success me-4">200</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">دیتابیس بازگرداندن</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">Mar 5</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-warning me-4">300</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">بروزرسانی سیستم</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">May 15</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-warning me-4">300</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">اپدیت سیستم عامل سرور</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">Apr 3</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-warning me-4">300</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">برگشت کلید دسترسی</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">Jun 30</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-danger me-4">500</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">روند بازپرداخت</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">Jul 10</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-danger me-4">500</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">روند برداشت</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">Sep 10</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+												<!--begin::item-->
+												<div class="d-flex flex-stack py-4">
+													<!--begin::Section-->
+													<div class="d-flex align-items-center me-2">
+														<!--begin::Code-->
+														<span class="w-70px badge badge-light-danger me-4">500</span>
+														<!--end::Code-->
+														<!--begin::Title-->
+														<a href="#" class="text-gray-800 text-hover-primary fw-semibold">وظایف نامه</a>
+														<!--end::Title-->
+													</div>
+													<!--end::Section-->
+													<!--begin::Tags-->
+													<span class="badge badge-light fs-8">Dec 10</span>
+													<!--end::Tags-->
+												</div>
+												<!--end::item-->
+											</div>
+											<!--end::items-->
+											<!--begin::نمایش بیشتر-->
+											<div class="py-3 text-center border-top">
+												<a href="../../demo38/dist/pages/user-profile/activity.html" class="btn btn-color-gray-600 btn-active-color-primary">نمایش همه
+												<i class="ki-outline ki-arrow-left fs-5"></i></a>
+											</div>
+											<!--end::نمایش بیشتر-->
+										</div>
+										<!--end::Tab panel-->
+									</div>
+									<!--end::Tab content-->
+								</div>
+								<!--end::Menu-->
+								<!--end::Menu wrapper-->
+							</div>
+							<!--end::اعلان ها-->
+							<!--begin::Quick links-->
+							<div class="app-navbar-item ms-1 ms-md-3">
+								<!--begin::Menu- wrapper-->
+								<div class="btn btn-icon btn-custom btn-color-gray-600 btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+									<i class="ki-outline ki-abstract-26 fs-1"></i>
+								</div>
+								<!--begin::Menu-->
+								<div class="menu menu-sub menu-sub-dropdown menu-column w-250px w-lg-325px" data-kt-menu="true">
+									<!--begin::Heading-->
+									<div class="d-flex flex-column flex-center bgi-no-repeat rounded-top px-9 py-10" style="background-image:url('assets/media/misc/menu-header-bg.jpg')">
+										<!--begin::Title-->
+										<h3 class="text-white fw-semibold mb-3">لینک های سریع</h3>
+										<!--end::Title-->
+										<!--begin::وضعیت-->
+										<span class="badge bg-primary text-inverse-primary py-2 px-3">25 وظیفه در انتظار</span>
+										<!--end::وضعیت-->
+									</div>
+									<!--end::Heading-->
+									<!--begin:Nav-->
+									<div class="row g-0">
+										<!--begin:آیتم-->
+										<div class="col-6">
+											<a href="../../demo38/dist/apps/projects/budget.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end border-bottom">
+												<i class="ki-outline ki-dollar fs-3x text-primary mb-2"></i>
+												<span class="fs-5 fw-semibold text-gray-800 mb-0">حسابداری</span>
+												<span class="fs-7 text-gray-400">تجارت</span>
+											</a>
+										</div>
+										<!--end:آیتم-->
+										<!--begin:آیتم-->
+										<div class="col-6">
+											<a href="../../demo38/dist/apps/projects/settings.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-bottom">
+												<i class="ki-outline ki-sms fs-3x text-primary mb-2"></i>
+												<span class="fs-5 fw-semibold text-gray-800 mb-0">مدیریت</span>
+												<span class="fs-7 text-gray-400">کنسول</span>
+											</a>
+										</div>
+										<!--end:آیتم-->
+										<!--begin:آیتم-->
+										<div class="col-6">
+											<a href="../../demo38/dist/apps/projects/list.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light border-end">
+												<i class="ki-outline ki-abstract-41 fs-3x text-primary mb-2"></i>
+												<span class="fs-5 fw-semibold text-gray-800 mb-0">پروژه ها</span>
+												<span class="fs-7 text-gray-400">انتظار وظیفه ها</span>
+											</a>
+										</div>
+										<!--end:آیتم-->
+										<!--begin:آیتم-->
+										<div class="col-6">
+											<a href="../../demo38/dist/apps/projects/users.html" class="d-flex flex-column flex-center h-100 p-6 bg-hover-light">
+												<i class="ki-outline ki-briefcase fs-3x text-primary mb-2"></i>
+												<span class="fs-5 fw-semibold text-gray-800 mb-0">مشتریان</span>
+												<span class="fs-7 text-gray-400">آخرین موارد</span>
+											</a>
+										</div>
+										<!--end:آیتم-->
+									</div>
+									<!--end:Nav-->
+									<!--begin::نمایش بیشتر-->
+									<div class="py-2 text-center border-top">
+										<a href="../../demo38/dist/pages/user-profile/activity.html" class="btn btn-color-gray-600 btn-active-color-primary">نمایش همه
+										<i class="ki-outline ki-arrow-left fs-5"></i></a>
+									</div>
+									<!--end::نمایش بیشتر-->
+								</div>
+								<!--end::Menu-->
+								<!--end::Menu wrapper-->
+							</div>
+							<!--end::Quick links-->
+							<!--begin::چت-->
+							<div class="app-navbar-item ms-1 ms-md-3">
+								<!--begin::Menu wrapper-->
+								<div class="btn btn-icon btn-custom btn-color-gray-600 btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px position-relative" id="kt_drawer_chat_toggle">
+									<i class="ki-outline ki-notification-on fs-1"></i>
+									<span class="position-absolute top-0 start-100 translate-middle badge badge-circle badge-danger w-15px h-15px ms-n4 mt-3">5</span>
+								</div>
+								<!--end::Menu wrapper-->
+							</div>
+							<!--end::چت-->
+							<!--begin::کاربر menu-->
+							<div class="app-navbar-item ms-1 ms-md-3" id="kt_header_user_menu_toggle">
+								<!--begin::Menu wrapper-->
+								<div class="cursor-pointer symbol symbol-circle symbol-35px symbol-md-45px" data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent" data-kt-menu-placement="bottom-end">
+									<img src="assets/media/avatars/300-2.jpg" alt="user" />
+								</div>
+								<!--begin::کاربر account menu-->
+								<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg menu-state-color fw-semibold py-4 fs-6 w-275px" data-kt-menu="true">
+									<!--begin::Menu item-->
+									<div class="menu-item px-3">
+										<div class="menu-content d-flex align-items-center px-3">
+											<!--begin::Avatar-->
+											<div class="symbol symbol-50px me-5">
+												<img alt="Logo" src="assets/media/avatars/300-2.jpg" />
+											</div>
+											<!--end::Avatar-->
+											<!--begin::کاربرname-->
+											<div class="d-flex flex-column">
+												<div class="fw-bold d-flex align-items-center fs-5">جلالی
+												<span class="badge badge-light-success fw-bold fs-8 px-2 py-1 ms-2">حرفه ای</span></div>
+												<a href="#" class="fw-semibold text-muted text-hover-primary fs-7">max@kt.com</a>
+											</div>
+											<!--end::کاربرname-->
+										</div>
+									</div>
+									<!--end::Menu item-->
+									<!--begin::Menu separator-->
+									<div class="separator my-2"></div>
+									<!--end::Menu separator-->
+									<!--begin::Menu item-->
+									<div class="menu-item px-5">
+										<a href="../../demo38/dist/account/overview.html" class="menu-link px-5">پروفایل من</a>
+									</div>
+									<!--end::Menu item-->
+								
+									<!--begin::Menu item-->
+									<div class="menu-item px-5">
+										<a href="../../demo38/dist/authentication/layouts/corporate/sign-in.html" class="menu-link px-5">خروج</a>
+									</div>
+									<!--end::Menu item-->
+								</div>
+								<!--end::کاربر account menu-->
+								<!--end::Menu wrapper-->
+							</div>
+							<!--end::کاربر menu-->
+						</div>
+						<!--end::Navbar-->
+						<!--begin::Separator-->
+						<div class="app-navbar-separator separator d-none d-lg-flex"></div>
+						<!--end::Separator-->
+					</div>
+					<!--end::Header container-->
+				</div>
+				<!--end::Header-->
+				<!--begin::Wrapper-->
+				<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
+					<!--begin::Sidebar-->
+					<div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true" data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="250px" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
+						<div class="app-sidebar-header d-flex flex-stack d-none d-lg-flex pt-8 pb-2" id="kt_app_sidebar_header">
+							<!--begin::Logo-->
+							<a href="../../demo38/dist/index.html" class="app-sidebar-logo">
+								<img alt="Logo" src="assets/images/logo1.png" class="h-25px d-none d-sm-inline app-sidebar-logo-default theme-light-show" />
+								<!-- <img alt="Logo" src="assets/media/logos/demo38-dark.svg" class="h-20px h-lg-25px theme-dark-show" /> -->
+							</a>
+							<!--end::Logo-->
+							<!--begin::Sidebar toggle-->
+							<div id="kt_app_sidebar_toggle" class="app-sidebar-toggle btn btn-sm btn-icon bg-light btn-color-gray-700 btn-active-color-primary d-none d-lg-flex rotate" data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body" data-kt-toggle-name="app-sidebar-minimize">
+								<i class="ki-outline ki-text-align-right rotate-180 fs-1"></i>
+							</div>
+							<!--end::Sidebar toggle-->
+						</div>
+						<!--begin::Navs-->
+						<div class="app-sidebar-navs flex-column-fluid py-6" id="kt_app_sidebar_navs">
+							<div id="kt_app_sidebar_navs_wrappers" class="app-sidebar-wrapper hover-scroll-y my-2" data-kt-scroll="true" data-kt-scroll-activate="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_app_sidebar_header" data-kt-scroll-wrappers="#kt_app_sidebar_navs" data-kt-scroll-offset="5px">
+							 
+								<!--begin::Sidebar menu-->
+								<div id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false" class="app-sidebar-menu-primary menu menu-column menu-rounded menu-sub-indention menu-state-bullet-primary">
+								 
+									<!--begin:Menu item-->
+									<div data-kt-menu-trigger="click" class="menu-item here show menu-accordion">
+										<!--begin:Menu link-->
+										<span class="menu-link">
+											<span class="menu-icon">
+												<i class="ki-outline ki-home-2 fs-2"></i>
+											</span>
+											<span class="menu-title">داشبورد </span>
+											<span class="menu-arrow"></span>
+										</span>
+										<!--end:Menu link-->
+										<!--begin:Menu sub-->
+									
+										<!--end:Menu sub-->
+									</div>
+									<!--end:Menu item-->
+									
+								</div>
+								<!--end::Sidebar menu-->
+							</div>
+						</div>
+						<!--end::Navs-->
+					</div>
+					<!--end::Sidebar-->
+					<!--begin::اصلی-->
+					<div class="app-main flex-column flex-row-fluid" id="kt_app_main">
+						<!--begin::Content wrapper-->
+						<div class="d-flex flex-column flex-column-fluid">
+							<!--begin::Content-->
+							 <!--begin::Toolbar-->
+							<div id="kt_app_toolbar" class="app-toolbar pt-7 pt-lg-10">
+								<!--begin::Toolbar container-->
+								<div id="kt_app_toolbar_container" class="app-container container-fluid d-flex align-items-stretch">
+									<!--begin::Toolbar wrapper-->
+									<div class="app-toolbar-wrapper d-flex flex-stack flex-wrap gap-4 w-100">
+										<!--begin::Page title-->
+										<div class="page-title d-flex flex-column justify-content-center gap-1 me-3">
+											<!--begin::Title-->
+											<h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold fs-3 m-0">پروفایل کاربر</h1>
+											<!--end::Title-->
+											<!--begin::Breadcrumb-->
+											<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0">
+												<!--begin::item-->
+												<li class="breadcrumb-item text-muted">
+													<a href="../../demo38/dist/index.html" class="text-muted text-hover-primary">خانه</a>
+												</li>
+												<!--end::item-->
+												<!--begin::item-->
+												<li class="breadcrumb-item">
+													<span class="bullet bg-gray-400 w-5px h-2px"></span>
+												</li>
+												<!--end::item-->
+												<!--begin::item-->
+												<li class="breadcrumb-item text-muted">صفحات</li>
+												<!--end::item-->
+												<!--begin::item-->
+												<li class="breadcrumb-item">
+													<span class="bullet bg-gray-400 w-5px h-2px"></span>
+												</li>
+												<!--end::item-->
+												<!--begin::item-->
+												<li class="breadcrumb-item text-muted">اکانت</li>
+												<!--end::item-->
+											</ul>
+											<!--end::Breadcrumb-->
+										</div>
+										<!--end::Page title-->
+										<!--begin::Actions-->
+										<div class="d-flex align-items-center gap-2 gap-lg-3">
+											<a href="#" class="btn btn-flex btn-outline btn-color-gray-700 btn-active-color-primary bg-body h-40px fs-7 fw-bold" data-bs-toggle="modal" data-bs-target="#kt_modal_view_users">افزودن عضو</a>
+ 
+										</div>
+										<!--end::Actions-->
+									</div>
+									<!--end::Toolbar wrapper-->
+								</div>
+								<!--end::Toolbar container-->
+							</div>
+							<!--end::Toolbar-->
+							<!--begin::Content-->
+							<div id="kt_app_content" class="app-content flex-column-fluid">
+								<!--begin::Content container-->
+								<div id="kt_app_content_container" class="app-container container-fluid">
+									<!--begin::Navbar-->
+									<div class="card mb-5 mb-xl-10">
+										<div class="card-body pt-9 pb-0">
+											<!--begin::Details---->
+											<div class="d-flex flex-wrap flex-sm-nowrap">
+												<!--begin: Pic-->
+												<div class="me-7 mb-4">
+													<div class="symbol symbol-100px symbol-lg-160px symbol-fixed position-relative">
+														<img src="assets/media/avatars/300-1.jpg" alt="image" />
+														<div class="position-absolute translate-middle bottom-0 start-100 mb-6 bg-success rounded-circle border border-4 border-body h-20px w-20px"></div>
+													</div>
+												</div>
+												<!--end::Pic-->
+												<!--begin::Info-->
+												<div class="flex-grow-1">
+													<!--begin::Title-->
+													<div class="d-flex justify-content-between align-items-start flex-wrap mb-2">
+														<!--begin::user-->
+														<div class="d-flex flex-column">
+															<!--begin::نام-->
+															<div class="d-flex align-items-center mb-2">
+																<a href="#" class="text-gray-900 text-hover-primary fs-2 fw-bold me-1">جلالی</a>
+																<a href="#">
+																	<i class="ki-outline ki-verify fs-1 text-primary"></i>
+																</a>
+															</div>
+															<!--end::نام-->
+															<!--begin::Info-->
+															<div class="d-flex flex-wrap fw-semibold fs-6 mb-4 pe-2">
+																<a href="#" class="d-flex align-items-center text-gray-400 text-hover-primary me-5 mb-2">
+																<i class="ki-outline ki-profile-circle fs-4 me-1"></i>راننده</a>
+																<a href="#" class="d-flex align-items-center text-gray-400 text-hover-primary me-5 mb-2">
+																<i class="ki-outline ki-phone fs-4 me-1"></i>091322222</a>
+																<a href="#" class="d-flex align-items-center text-gray-400 text-hover-primary mb-2">
+																<i class="ki-outline ki-sms fs-4"></i>max@kt.com</a>
+															</div>
+															<!--end::Info-->
+														</div>
+														<!--end::user-->
+														<!--begin::Actions-->
+														<div class="d-flex my-4">
+														<!--begin::Menu-->
+															<div class="me-0">
+																<button class="btn btn-sm btn-icon btn-bg-light btn-active-color-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+																	<i class="ki-solid ki-dots-hیاizontal fs-2x"></i>
+																</button>
+																<!--begin::Menu 3-->
+																<div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-800 menu-state-bg-light-primary fw-semibold w-200px py-3" data-kt-menu="true">
+																	<!--begin::Heading-->
+																	<div class="menu-item px-3">
+																		<div class="menu-content text-muted pb-2 px-3 fs-7 text-uppercase">درگاه ها</div>
+																	</div>
+																	<!--end::Heading-->
+																
+																	<!--begin::Menu item-->
+																	<div class="menu-item px-3 my-1">
+																		<a href="#" class="menu-link px-3">تنظیمات</a>
+																	</div>
+																	<!--end::Menu item-->
+																</div>
+																<!--end::Menu 3-->
+															</div>
+															<!--end::Menu-->
+														</div>
+														<!--end::Actions-->
+													</div>
+													<!--end::Title-->
+												
+												</div>
+												<!--end::Info-->
+											</div>
+											<!--end::Details---->
+											<!--begin::Navs-->
+											<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5 " href="userprofile.html" >پروفایل</a>
+												</li>
+												<!--end::Nav item-->
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="CarOwner.html" >مالک</a>
+												</li>
+												<!--end::Nav item-->
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="CarInfo.html">خودرو</a>
+												</li>
+												<!--end::Nav item-->
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="Bimeh.html" >بیمه</a>
+												</li>
+												<!--end::Nav item-->
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="UserDoc.html">مدارک</a>
+												</li>
+												<!--end::Nav item-->
+												<!--begin::Nav item-->
+												<li class="nav-item mt-2">
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="UserFinanceInfo.html" >مالی</a>
+												</li>
+												<!--end::Nav item-->
+											
+											</ul>
+											<!--begin::Navs-->
+										</div>
+									</div>
+									<!--end::Navbar-->
+									<!--begin::details نمایش-->
+									<div class="card mb-5 mb-xl-10" id="kt_profile_details_view">
+										<!--begin::کارت header-->
+										<div class="card-header cursor-pointer">
+											<!--begin::کارت title-->
+											<div class="card-title m-0">
+												<h3 class="fw-bold m-0">پروفایل جزییات</h3>
+											</div>
+											<!--end::کارت title-->
+											 
+										</div>
+										<!--begin::کارت header-->
+										<!--begin::کارت body-->
+										<div class="card-body p-9">
+                                            <!--begin::Row-->
+                                            <div class="row row-cols-1 row-cols-sm-2 rol-cols-md-1 row-cols-lg-3">
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">شماره گواهی نامه</span>
+                                                            
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="email" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">اعتبار گواهی نامه</span>
+                                                           
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="phone" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                             
+                                           </div>
+                                           <!--end::Row-->
+                                           <!--begin::Row-->
+                                           <div class="row row-cols-1 row-cols-sm-2 rol-cols-md-1 row-cols-lg-3">
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">شماره بیمه ثالث</span>
+                                                            
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="email" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">اعتبار بیمه ثالث</span>
+                                                           
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="phone" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                             
+                                           </div>
+                                           <!--end::Row-->
+                                           <!--begin::Row-->
+                                           <div class="row row-cols-1 row-cols-sm-2 rol-cols-md-1 row-cols-lg-3">
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">شماره کارت سلامت</span>
+                                                            
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="email" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">اعتبار کارت سلامت</span>
+                                                           
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="phone" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                             
+                                           </div>
+                                           <!--end::Row-->
+                                           <!--begin::Row-->
+                                           <div class="row row-cols-1 row-cols-sm-2 rol-cols-md-1 row-cols-lg-3">
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">شماره معاینه فنی</span>
+                                                            
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="email" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                               <!--begin::Col-->
+                                               <div class="col">
+                                                   <!--begin::Input group-->
+                                                   <div class="fv-row mb-7">
+                                                       <!--begin::Tags-->
+                                                       <label class="fs-6 fw-semibold form-label mt-3">
+                                                           <span class="required">اعتبار معاینه فنی</span>
+                                                           
+                                                       </label>
+                                                       <!--end::Tags-->
+                                                       <!--begin::Input-->
+                                                       <input type="text" class="form-control form-control-solid" name="phone" value="" />
+                                                       <!--end::Input-->
+                                                   </div>
+                                                   <!--end::Input group-->
+                                               </div>
+                                               <!--end::Col-->
+                                             
+                                           </div>
+                                           <!--end::Row-->
+                                              <!--begin::Row-->
+                                              <div class="row row-cols-1 row-cols-sm-2 rol-cols-md-1 row-cols-lg-3">
+                                                <!--begin::Col-->
+                                                <div class="col">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row mb-7">
+                                                        <!--begin::Tags-->
+                                                        <label class="fs-6 fw-semibold form-label mt-3">
+                                                            <span class="required"> معاینه فنی گازسوز</span>
+                                                             
+                                                        </label>
+                                                        <!--end::Tags-->
+                                                        <!--begin::Input-->
+                                                        <input type="text" class="form-control form-control-solid" name="email" value="" />
+                                                        <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                </div>
+                                                <!--end::Col-->
+                                                <!--begin::Col-->
+                                                <div class="col">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row mb-7">
+                                                        <!--begin::Tags-->
+                                                        <label class="fs-6 fw-semibold form-label mt-3">
+                                                            <span class="required">اعتبار گازسوز</span>
+                                                            
+                                                        </label>
+                                                        <!--end::Tags-->
+                                                        <!--begin::Input-->
+                                                        <input type="text" class="form-control form-control-solid" name="phone" value="" />
+                                                        <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                </div>
+                                                <!--end::Col-->
+                                              
+                                            </div>
+                                            <!--end::Row-->
+                                           <!--begin::Separator-->
+                                                       <div class="separator mb-6"></div>
+                                                       <!--end::Separator-->
+                                                       <!--begin::عملیات buttons-->
+                                                       <div class="d-flex justify-content-end">
+                                                           <!--begin::Button-->
+                                                           <button type="reset" data-kt-contacts-type="cancel" class="btn btn-light me-3">انصراف</button>
+                                                           <!--end::Button-->
+                                                           <!--begin::Button-->
+                                                           <button type="submit" data-kt-contacts-type="submit" class="btn btn-primary">
+                                                               <span class="indicator-label">ذخیره</span>
+                                                               <span class="indicator-progress">لطفا صبر کنید...
+                                                               <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+                                                           </button>
+                                                           <!--end::Button-->
+                                                       </div>
+                                                       <!--end::عملیات buttons-->
+                                       </div>
+										<!--end::کارت body-->
+									</div>
+									<!--end::details نمایش-->
+								
+								</div>
+								<!--end::Content container-->
+							</div>
+							<!--end::Content-->
+							<!--end::Content-->
+						</div>
+						<!--end::Content wrapper-->
+						<!--begin::Footer-->
+						<div id="kt_app_footer" class="app-footer">
+							<!--begin::Footer container-->
+							<div class="app-container container-fluid d-flex flex-column flex-md-row flex-center flex-md-stack py-3">
+								<!--begin::کپیright-->
+								<div class="text-dark order-2 order-md-1">
+									<span class="text-muted fw-semibold me-1">2023&copy;</span>
+									<a href="https://keenthemes.com" target="_blank" class="text-gray-800 text-hover-primary">سهراب گشت</a>
+								</div>
+								<!--end::کپیright-->
+								<!--begin::Menu-->
+							 
+								<!--end::Menu-->
+							</div>
+							<!--end::Footer container-->
+						</div>
+						<!--end::Footer-->
+					</div>
+					<!--end:::اصلی-->
+				</div>
+				<!--end::Wrapper-->
+			</div>
+			<!--end::Page-->
+		</div>
+		<!--end::اپلیکیشن-->
+		<!--begin::کشوs-->
+	 
+	
+	 
+		<!--end::کشوs-->
+		<!--begin::Scrolltop-->
+		<div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+			<i class="ki-outline ki-arrow-up"></i>
+		</div>
+		<!--end::Scrolltop-->
+
+		<!--begin::Javascript-->
+		<script>var hostUrl = "assets/";</script>
+		<!--begin::Global Javascript Bundle(mandatory for all pages)-->
+		<script src="assets/plugins/global/plugins.bundle.js"></script>
+		<script src="assets/js/scripts.bundle.js"></script>
+		<!--end::Global Javascript Bundle-->
+		<!--begin::Vendors Javascript(used for this page only)-->
+		<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+
+		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<!--end::Vendors Javascript-->
+		<!--begin::سفارشی Javascript(used for this page only)-->
+		<script src="assets/js/widgets.bundle.js"></script>
+		<script src="assets/js/custom/widgets.js"></script>
+		<script src="assets/js/custom/apps/chat/chat.js"></script>
+		<script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
+		<script src="assets/js/custom/utilities/modals/users-search.js"></script>
+		<!--end::سفارشی Javascript-->
+		<!--end::Javascript-->
+	</body>
+	<!--end::Body-->
+</html>
